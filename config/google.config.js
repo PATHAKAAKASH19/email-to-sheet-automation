@@ -3,7 +3,10 @@ import dotenv from "dotenv"
 
 dotenv.config()
 
-// Initialize OAuth2 Client
+
+// below code is use to authenticate google api dashboard
+// so that we can use gmail and spreadsheet api
+
 const auth = new google.auth.OAuth2(
   process.env.CLIENT_ID,
   process.env.CLIENT_SECRET,
