@@ -1,0 +1,31 @@
+{
+  "name": "email-to-sheet-automation",
+  "version": "1.0.0",
+  "description": "this app transfer email data to google sheet automatically",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PATHAKAAKASH19/email-to-sheet-automation.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PATHAKAAKASH19/email-to-sheet-automation/issues"
+  },
+  "homepage": "https://github.com/PATHAKAAKASH19/email-to-sheet-automation#readme",
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "googleapis": "^150.0.1",
+    "mailparser": "^3.7.3",
+    "node-cron": "^4.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
